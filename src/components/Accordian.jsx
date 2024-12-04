@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Accordian = ({ post }) => {
   const [toggle, setToggle] = useState(true);
